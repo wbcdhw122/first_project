@@ -1,17 +1,22 @@
 <!doctype html>
 <html>
   <head>
-    <title>Movie-wbcdhw</title>
+    <title>Welcome-wbcdhw</title>
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="colors.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
 
 
   <body>
     <h1><a href="0.html">Rock n Roll</a></h1>
+    <br>
     <strong>Diplay Mode=></strong>
     <input id="night_day" type="button" value="night" onclick="nightDayHandler(this);">
+
+
+  <div id="grid">
     <ol>
       <li><a href="1.html">music</a></li>
       <li><a href="2.html">news</a></li>
@@ -19,65 +24,45 @@
       <li><a href="4.html">movie</a></li>
     </ol>
 
-    <h3>Subscribe <a href="https://www.netflix.com/browse/genre/34399"
-    target="_blank" title="netflix">Netflix</a></h3>
+    <div id="lyric">
+      <h3>Subscribe <a href="https://www.netflix.com/browse/genre/34399"
+      target="_blank" title="netflix">Netflix</a></h3>
+      <img src="netflix.png" width="500px">
 
-    <img src="netflix.png" width="500px">
+      <p>Netflix, Inc. is an American media-services provider and production
+      company headquartered in Los Gatos, California, founded in 1997 by Reed
+      Hastings and Marc Randolph in Scotts Valley, California. The company's
+      primary business is its subscription-based streaming service which offers
+      online streaming of a library of films and television programs, including
+      those produced in-house. As of April 2019, Netflix had over 148 million
+      paid subscriptions worldwide, including 60 million in the United States,
+      and over 154 million subscriptions total including free trials. It is
+      available worldwide except in mainland China (due to local restrictions),
+      Syria, North Korea, and Crimea (due to U.S. sanctions). The company also
+      has offices in India, Netherlands, Brazil, Japan, and South Korea. Netflix
+      is a member of the Motion Picture Association (MPA).</p>
 
-    <p>Netflix, Inc. is an American media-services provider and production
-    company headquartered in Los Gatos, California, founded in 1997 by Reed
-    Hastings and Marc Randolph in Scotts Valley, California. The company's
-    primary business is its subscription-based streaming service which offers
-    online streaming of a library of films and television programs, including
-    those produced in-house. As of April 2019, Netflix had over 148 million
-    paid subscriptions worldwide, including 60 million in the United States,
-    and over 154 million subscriptions total including free trials. It is
-    available worldwide except in mainland China (due to local restrictions),
-    Syria, North Korea, and Crimea (due to U.S. sanctions). The company also
-    has offices in India, Netherlands, Brazil, Japan, and South Korea. Netflix
-    is a member of the Motion Picture Association (MPA).</p>
+      <p>Netflix's initial business model included DVD sales and rental by mail,
+      but Hastings abandoned the sales about a year after the company's founding
+      to focus on the initial DVD rental business. Netflix expanded its
+      business in 2010 with the introduction of streaming media while retaining
+      the DVD and Blu-ray rental business. The company expanded internationally
+      in 2010 with streaming available in Canada, followed by Latin America
+      and the Caribbean. Netflix entered the content-production industry in 2012,
+      debuting its first series Lilyhammer.</p>
 
-    <p>Netflix's initial business model included DVD sales and rental by mail,
-    but Hastings abandoned the sales about a year after the company's founding
-    to focus on the initial DVD rental business. Netflix expanded its
-    business in 2010 with the introduction of streaming media while retaining
-    the DVD and Blu-ray rental business. The company expanded internationally
-    in 2010 with streaming available in Canada, followed by Latin America
-    and the Caribbean. Netflix entered the content-production industry in 2012,
-    debuting its first series Lilyhammer.</p>
-
-    <p style="margin-bottom:300px;">Since 2012, Netflix has taken more of an active role as producer and distributor
-    for both film and television series, and to that end, it offers a variety of
-    "Netflix Original" content through its online library.By January 2016,
-    Netflix services operated in more than 190 countries.Netflix released an
-    estimated 126 original series and films in 2016, more than any other network or
-    cable channel. Their efforts to produce new content, secure the rights for
-    additional content, and diversify through 190 countries have resulted in the company
-    racking up billions in debt: $21.9 billion as of September 2017, up from $16.8 billion
-    from the previous year. $6.5 billion of this is long-term debt, while the remaining
-    is in long-term obligations. In October 2018, Netflix announced it would raise another
-    $2 billion in debt to help fund new content.</p>
-    <p>
-      <div id="disqus_thread"></div>
-      <script>
-
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-      /*
-      var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      */
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = 'https://first-example.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </p>
+      <p style="margin-bottom:300px;">Since 2012, Netflix has taken more of an active role as producer and distributor
+      for both film and television series, and to that end, it offers a variety of
+      "Netflix Original" content through its online library.By January 2016,
+      Netflix services operated in more than 190 countries.Netflix released an
+      estimated 126 original series and films in 2016, more than any other network or
+      cable channel. Their efforts to produce new content, secure the rights for
+      additional content, and diversify through 190 countries have resulted in the company
+      racking up billions in debt: $21.9 billion as of September 2017, up from $16.8 billion
+      from the previous year. $6.5 billion of this is long-term debt, while the remaining
+      is in long-term obligations. In October 2018, Netflix announced it would raise another
+      $2 billion in debt to help fund new content.</p>
+    </div>
+  </div>
   </body>
 </html>
